@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="wimwinsk-logo2.png">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="cont">
+        <img src="logo.jpg" style="width:25%;">
+        <form id="myForm" method="POST" action="mailto: chichianikpo@gmail.com" enctype="text/plain">
+            <h3>Registration Form</h3>
+            <div class="section">
+            <label for="fname">First_name:</label>&nbsp;
+            <input type="text" name="First Name" id="fname" required>
+            </div>
+            <br>
+
+            <div class="section">
+            <label for="lname">Last_name:</label>&nbsp;
+            <input type="text" name="Last Name" id="lname" required>
+            </div>
+            <br>
+
+            <div class="section">
+            <label for="address">Address:</label>&nbsp;
+            <input type="text" name="Address" id="address" required>
+            </div>
+            <br>
+
+            <div class="section">
+            <label for="email">Email:</label>&nbsp;
+            <input type="email" name="Email" id="email" required>
+            </div>
+            <br>
+
+            <div class="section">
+            <label for="phone">Phone_Number:</label>&nbsp;
+            <div id="phoneSection">
+            (+1)<input type="tel" id="phone" name="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="border:0; outline:0;" placeholder="639-123-4255" required>
+            </div>
+            </div>
+            <br>
+
+            <div class="section">
+            <label for="company">Company:</label>&nbsp;
+            <input type="text" name="Company" id="company" required>
+            </div>
+            <br>
+
+            <div class="section">
+            <input type="radio" id="attending" name="attendance" value="attending the tour" required>
+            <label for="attending"> I <b>WILL</b> be attending the tour.</label>
+            </div>
+            <br>
+
+            <div class="section">
+            <input type="radio" id="not_attending" name="attendance" value="not attending the tour" required>
+            <label for="not_attending"> I <b>WILL NOT</b> be attending the tour.</label>
+            </div>
+            <br>
+            <i>If for any reason you have a last minute arrangement and cannot go, please let us know 24 hours prior to the tour.</i>
+            <br>
+
+                <input id="submit" type="submit" value="Register">
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

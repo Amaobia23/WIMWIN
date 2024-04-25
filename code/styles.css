@@ -1,0 +1,31 @@
+.cont{
+    width:100%;
+    display:flex;
+    align-items:center;
+    font-family:Arial;
+    flex-direction:column;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+}
+#submit{
+    width:20%;
+}
+#phoneSection{
+    border:1.75px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    outline:0;
+}
+input{
+    border:1.75px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    outline:0;
+}
